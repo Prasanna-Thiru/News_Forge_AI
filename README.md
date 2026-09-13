@@ -367,9 +367,9 @@ During my internship period, I participated in two community-oriented activities
 
 <div align="center">
 
-<img src="https://github.com/Mridultech/Generative_AI/blob/main/Community%20Service%20SURE%20Trust/1.jpeg?raw=true" alt="Food Service Activity" width="40%">
+<img src="https://github.com/Prasanna-Thiru/News_Forge_AI/blob/main/Community%20Service%20SURE%20Trust/Food_donation.jpg" alt="Food Service Activity" width="40%">
 
-<img src="https://github.com/Mridultech/Generative_AI/blob/main/Community%20Service%20SURE%20Trust/2.jpeg?raw=true" alt="Tree Plantation Activity" width="40%">
+<img src="https://github.com/Prasanna-Thiru/News_Forge_AI/blob/main/Community%20Service%20SURE%20Trust/Planting.jpg" alt="Tree Plantation Activity" width="40%">
 
 </div>
 
