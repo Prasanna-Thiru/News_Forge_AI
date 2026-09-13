@@ -22,11 +22,11 @@
 
 <div align="left" style="margin: 20px; font-size: 16px;">
 
-<p><strong>Name:</strong> Mridul Goyal</p>
-<p><strong>Email ID:</strong> mridul.goyalg4genai@gmail.com</p>
-<p><strong>College Name:</strong> GL Bajaj Group Of Institutions, Mathura</p>
-<p><strong>Branch/Specialization:</strong> B.Tech CSE</p>
-<p><strong>College ID:</strong> 2305110100107</p>
+<p><strong>Name:</strong> Prasanna T</p>
+<p><strong>Email ID:</strong> prasannathiru05@gmail.com</p>
+<p><strong>College Name:</strong> Amet University, chennai</p>
+<p><strong>Branch/Specialization:</strong> B.E. CSE(AI&ML)</p>
+<p><strong>College ID:</strong> AML23015</p>
 
 </div>
 
@@ -125,90 +125,203 @@ They also provided practical experience with workflow orchestration, embeddings,
 
 <!-- Project 2 -->
 
-<h3 id="project2">Project 2: Finthropic – Financial Research AI Assistant</h3>
+<h3 id="project1">Project 1: News Forge – AI Newsletter Engine</h3>
 
 <p>
-<strong>Finthropic</strong> was the major capstone project developed during my internship. It is an AI-powered financial research platform that transforms financial market news into structured and actionable research reports using Large Language Models.
+<strong>News Forge</strong> is an AI-powered newsletter generation system developed during my internship. It automatically searches the web for trending AI topics, filters previously covered stories, generates concise AI-powered summaries, and produces a structured markdown newsletter.
 </p>
 
 <p>
-The project combines real-time financial data, AI-driven event extraction, historical context, and automated report generation into a unified workflow.
+The project combines web search, Large Language Models, intelligent story curation, automated summarization, and trend memory into a single workflow for generating fresh AI news digests.
 </p>
 
 <p><strong>Key Features:</strong></p>
 
 <ul>
-<li>Financial news ingestion and processing</li>
-<li>AI-powered event extraction</li>
-<li>Historical context integration</li>
-<li>Automated financial research report generation</li>
-<li>Search and browsing of generated reports</li>
-<li>Interactive dashboard</li>
-<li>RESTful FastAPI backend</li>
-<li>Next.js frontend</li>
-<li>PostgreSQL database with SQLAlchemy</li>
-<li>Modular service-oriented architecture</li>
+<li>Live web search using DuckDuckGo</li>
+<li>LLM-powered news curation and story selection</li>
+<li>AI-powered story summarization</li>
+<li>Trend memory using <code>history.json</code></li>
+<li>Automatic duplicate story filtering</li>
+<li>30-day story retention and history management</li>
+<li>Custom topic support through CLI arguments</li>
+<li>Dual LLM support with Google Gemini and OpenAI</li>
+<li>Automatic model fallback for Gemini</li>
+<li>Markdown newsletter generation</li>
+<li>File-based storage without a database</li>
+<li>Modular PocketFlow-based workflow architecture</li>
 </ul>
 
 <p>
-<a href="https://github.com/Mridultech/Generative_AI" target="_blank"><strong>→ View Full Project Repository</strong></a>
+<a href="<your-repository-url>" target="_blank"><strong>→ View Full Project Repository</strong></a>
 </p>
 
 <hr style="height:1px; border-top:1px solid #ccc; width:80%;" />
 
 ## **Project Introduction**
 
-The projects completed during this internship provided progressive practical exposure to Generative AI.
+The **News Forge** project provided practical exposure to Generative AI, Large Language Models, web search, workflow orchestration, and automated content generation.
 
-The assignments focused on understanding individual concepts such as **LLMs, Chatbots, Semantic Search, RAG, embeddings, and AI Agents**, while the final capstone project, **Finthropic**, combined multiple AI and software engineering concepts into a complete financial research application.
+The project was designed as an AI newsletter engine that searches for current AI-related topics, evaluates and selects relevant stories, generates concise summaries, and formats them into a readable newsletter.
+
+A key feature of the project is its **trend memory**, which maintains a record of previously covered story URLs and prevents the system from repeatedly selecting the same stories within a 30-day period.
 
 ---
 
 ## **Technologies Used**
 
-| Category              | Technologies                 |
-| --------------------- | ---------------------------- |
-| Programming Languages | Python, TypeScript           |
-| AI / LLM              | Google Gemini, Groq, OpenAI  |
-| Workflow Framework    | PocketFlow                   |
-| Embeddings            | Gemini Embeddings            |
-| Vector Search         | FAISS                        |
-| Backend               | FastAPI                      |
-| Frontend              | Next.js, React, Tailwind CSS |
-| Database              | PostgreSQL, SQLite           |
-| ORM                   | SQLAlchemy                   |
-| External APIs         | Finnhub, DuckDuckGo Search   |
-| State Management      | React Query                  |
-| Version Control       | Git, GitHub                  |
-| Operating System      | Linux                        |
+| Category             | Technologies                 |
+| -------------------- | ---------------------------- |
+| Programming Language | Python                       |
+| AI / LLM             | Google Gemini, OpenAI GPT-4o |
+| Workflow Framework   | PocketFlow                   |
+| Web Search           | DuckDuckGo                   |
+| LLM Integration      | Google GenAI, OpenAI API     |
+| Data Format          | YAML, JSON, Markdown         |
+| Configuration        | Python-dotenv                |
+| Version Control      | Git, GitHub                  |
+| Storage              | JSON file-based storage      |
+| Operating System     | Linux                        |
 
 ---
 
 ## **Roles and Responsibilities**
 
-During the internship, I:
+During the development of News Forge, I:
 
-* Studied and implemented core Generative AI concepts through practical assignments.
-* Developed LLM-powered applications and workflows.
-* Implemented semantic search using embeddings and vector similarity.
-* Built Retrieval-Augmented Generation (RAG) pipelines.
-* Explored AI agents and basic agentic workflows.
-* Worked with PocketFlow for workflow orchestration.
-* Integrated external APIs and AI services.
-* Developed backend services using FastAPI.
-* Worked with PostgreSQL and SQLAlchemy for data persistence.
-* Contributed to frontend implementation using Next.js and React.
-* Structured, tested, and documented project implementations.
+* Studied and implemented Generative AI concepts using Large Language Models.
+* Developed an AI-powered automated newsletter generation workflow.
+* Integrated DuckDuckGo for live web search and news discovery.
+* Implemented LLM-based story evaluation and curation.
+* Developed logic to identify fresh and relevant stories.
+* Implemented AI-powered summarization for selected news articles.
+* Designed trend memory using <code>history.json</code>.
+* Implemented duplicate story filtering based on previously covered URLs.
+* Added automatic 30-day history retention and cleanup.
+* Implemented support for custom search topics through CLI arguments.
+* Integrated both Google Gemini and OpenAI LLM providers.
+* Worked with PocketFlow to structure the processing workflow.
+* Designed the application using modular processing nodes.
+* Tested and documented the project workflow and implementation.
+
+---
+
+## **Project Workflow**
+
+News Forge follows a four-stage processing pipeline:
+
+```mermaid
+graph TD
+    A[CurateSources] --> B[FilterStories]
+    B --> C[SummarizeStories]
+    C --> D[FormatNewsletter]
+```
+
+| Step | Node               | What it does                                                                                          |
+| ---- | ------------------ | ----------------------------------------------------------------------------------------------------- |
+| 1    | `CurateSources`    | Searches DuckDuckGo for the configured AI topics and collects raw search results                      |
+| 2    | `FilterStories`    | Checks `history.json` and uses the LLM to select fresh stories while avoiding previously covered URLs |
+| 3    | `SummarizeStories` | Generates concise 2–3 sentence summaries for the selected stories                                     |
+| 4    | `FormatNewsletter` | Combines the generated content into a structured markdown newsletter                                  |
+
+---
+
+## **Trend Memory**
+
+News Forge uses a file-based trend memory system through <code>history.json</code>.
+
+Each time the application runs, previously covered story URLs are loaded and provided to the LLM during the story-selection process. This allows the system to avoid repeatedly selecting stories that have already been included in previous newsletters.
+
+Newly selected stories are automatically added to the history with their coverage date.
+
+The system also removes entries older than **30 days**, allowing genuinely new stories to become eligible for future newsletters.
+
+**Example schema:**
+
+```json
+{
+  "url": "https://example.com/story",
+  "title": "Story headline",
+  "date_covered": "2025-07-14"
+}
+```
+
+---
+
+## **LLM Support**
+
+| Provider      | Model                                                                   | Usage                                        |
+| ------------- | ----------------------------------------------------------------------- | -------------------------------------------- |
+| Google Gemini | `gemini-2.0-flash-lite`, `gemini-2.0-flash`, `gemini-flash-lite-latest` | Primary LLM provider with automatic fallback |
+| OpenAI        | `gpt-4o`                                                                | Alternative LLM provider                     |
+
+The application supports both Google Gemini and OpenAI. Gemini models can automatically fall back to other configured Gemini models when quota-related issues occur.
+
+---
+
+## **Project Structure**
+
+```text
+pocketflow-newsletter/
+├── .env              ← API keys and environment configuration
+├── main.py           ← Application entry point
+├── flow.py           ← Connects the workflow nodes
+├── nodes.py          ← Core processing nodes and history helpers
+├── utils.py          ← LLM and web search utilities
+├── history.json      ← Stores previously covered stories
+├── Changes.md        ← Changelog and design notes
+└── requirements.txt  ← Project dependencies
+```
+
+---
+
+## **Default Topics**
+
+The project includes configurable AI-related search topics such as:
+
+```python
+TOPICS = [
+    "AI agents framework news this week",
+    "LLM benchmark results 2025 2026",
+    "AI startup funding rounds this month",
+]
+```
+
+Additional topics can also be supplied dynamically through command-line arguments without modifying the source code.
+
+---
+
+## **Example Output**
+
+The system processes the configured topics, searches the web, selects relevant stories, generates summaries, and produces a structured AI newsletter.
+
+The final output follows a format similar to:
+
+```text
+# AI Weekly Digest
+
+## 1. AI Story One
+Concise AI-generated summary of the selected story.
+
+## 2. AI Story Two
+Concise AI-generated summary of the selected story.
+
+## 3. AI Story Three
+Concise AI-generated summary of the selected story.
+
+## 4. AI Story Four
+Concise AI-generated summary of the selected story.
+```
 
 ---
 
 ## **Project Report**
 
-The complete SURE Trust project report can be accessed here:
+The complete project documentation and implementation details are available in the project repository.
 
 <p align="center">
-<a href="https://github.com/Mridultech/Generative_AI/blob/main/Course%20report/SURE_Trust_Project_Report.pdf" target="_blank">
-<strong>→ View Full Project Report</strong>
+<a href="<your-repository-url>" target="_blank">
+<strong>→ View Full Project Repository</strong>
 </a>
 </p>
 
@@ -217,12 +330,11 @@ The complete SURE Trust project report can be accessed here:
 ## **References**
 
 * [Google Gemini](https://ai.google.dev/)
+* [OpenAI](https://platform.openai.com/)
 * [PocketFlow](https://github.com/The-Pocket/PocketFlow)
-* [FastAPI](https://fastapi.tiangolo.com/)
-* [Next.js](https://nextjs.org/)
-* [FAISS](https://github.com/facebookresearch/faiss)
-* [SQLAlchemy](https://www.sqlalchemy.org/)
-* [Finnhub](https://finnhub.io/)
+* [DuckDuckGo Search](https://duckduckgo.com/)
+* [PyYAML](https://pyyaml.org/)
+* [python-dotenv](https://github.com/theskumar/python-dotenv)
 
 ---
 
