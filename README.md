@@ -90,7 +90,7 @@ I progressed from foundational concepts to practical implementations through str
 
 <p><strong><a href="#project1">Project 1:</a></strong> Generative AI Assignments</p>
 
-<p><strong><a href="#project2">Project 2:</a></strong> Finthropic – Financial Research AI Assistant</p>
+<p><strong><a href="#project2">Project 2:</a></strong> Finthropic – News Forge AI </p>
 
 </div>
 
