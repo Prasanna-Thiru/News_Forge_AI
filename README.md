@@ -367,9 +367,9 @@ During my internship period, I participated in two community-oriented activities
 
 <div align="center">
 
-<img src="https://github.com/Mridultech/Generative_AI/blob/main/Community%20Service%20SURE%20Trust/1.jpeg?raw=true" alt="Food Service Activity" width="40%">
+<img src="https://github.com/Prasanna-Thiru/News_Forge_AI/blob/main/Community%20Service%20SURE%20Trust/Food_donation.jpg" alt="Food Service Activity" width="40%">
 
-<img src="https://github.com/Mridultech/Generative_AI/blob/main/Community%20Service%20SURE%20Trust/2.jpeg?raw=true" alt="Tree Plantation Activity" width="40%">
+<img src="https://github.com/Prasanna-Thiru/News_Forge_AI/blob/main/Community%20Service%20SURE%20Trust/Planting.jpg" alt="Tree Plantation Activity" width="40%">
 
 </div>
 
@@ -403,6 +403,6 @@ I would also like to acknowledge **GL Bajaj Group Of Institutions, Mathura** for
 
 B.Tech CSE | Generative AI | AI Engineering Enthusiast
 
-* **GitHub:** https://github.com/Mridultech
+* **GitHub:** [Prasanna Thiru](https://github.com/Prasanna-Thiru)
 * **LinkedIn:** https://linkedin.com/in/mridul-goyal-7221581b3
-* **Email:** [mridul.goyalg4genai@gmail.com](mailto:mridul.goyalg4genai@gmail.com)
+* **Email:** [prasannathiru05@gmail.com](mailto:prasannathiru05@gmail.com)
