@@ -320,7 +320,7 @@ Concise AI-generated summary of the selected story.
 The complete project documentation and implementation details are available in the project repository.
 
 <p align="center">
-<a href="<your-repository-url>" target="_blank">
+<a href="<https://github.com/Prasanna-Thiru/News_Forge_AI/blob/main/Course%20report/SURE%20Trust%20project%20document.pdf>" target="_blank">
 <strong>→ View Full Project Repository</strong>
 </a>
 </p>
