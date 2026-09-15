@@ -120,7 +120,7 @@ They also provided practical experience with workflow orchestration, embeddings,
 </ul>
 
 <p>
-<a href="https://github.com/Mridultech/Generative_AI" target="_blank"><strong>→ View Full Project Repository</strong></a>
+<a href="https://github.com/sure-trust/PRASANNA-T-g4-gen-ai" target="_blank"><strong>→ View Full Project Repository</strong></a>
 </p>
 
 <!-- Project 2 -->
